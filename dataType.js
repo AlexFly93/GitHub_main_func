@@ -11,14 +11,16 @@ console.log(5===5);
 console.log(5!=5);
 
 //Массивы (Arrays): 
-const arr = [1, 2, 3, 4]
+const arr = [1, undefined, "3", null, true]
 console.log(arr);
 
 //Объекты (Objects): 
 const obj = { name: 'John', age: 30 }
 console.log(obj);
 
-Undefined: Пример: let x;
-
-Null: Пример: let y = null;
-
+//Undefined:
+ let x;
+console.log(x);
+//Null:  
+let y = null;
+console.log(y);
