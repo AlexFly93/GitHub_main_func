@@ -24,14 +24,14 @@ console.log(x);
 let y: null = null;
 console.log(y);
 
-//Any: Пример:
+//Any: 
 let z: any;
 z = 5;
 z = 'Hello';
 console.log(z);
 
 
-//Void: Пример:
+//Void: 
 function displayMessage(): void {
     console.log('This is a message');
 }
